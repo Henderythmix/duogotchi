@@ -147,3 +147,15 @@ order: 0;
 flex-grow: 0;
 
 }
+
+.fakeTamagotchi {
+  /* tamagotchi physical */
+
+position: absolute;
+width: 228.16px;
+height: 268.01px;
+left: 83px;
+top: 292px;
+
+background: url('../assets/notgotchi.svg');
+}

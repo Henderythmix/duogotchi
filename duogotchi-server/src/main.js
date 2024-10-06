@@ -78,6 +78,7 @@ app.get('/GET/getPair', (req, res) => {
     res.send({
         'username': users[req.query.username],
         'partner': users[req.query.username].getPartner(req.query.accessToken) || null,
+        'partnerName': users[req.query.username].getPartner(req.query.accessToken)?.getUsername() || null,
         'message': "User Found Successfully"
     });
 })

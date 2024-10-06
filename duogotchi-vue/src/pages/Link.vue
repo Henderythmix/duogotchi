@@ -35,6 +35,10 @@
     })
   }
 
+  function goToGame() {
+    window.location.href = "/pet";
+  }
+
   getPair();
 </script>
 
@@ -52,8 +56,11 @@
         <button type ="submit" @click="link()">request!</button>
       </div>
     </template>
+    
     <template v-else>
-      <div class="bodytext">you are already linked!</div>
+      <div class="bodytext">{{ pairData.partnerName }}</div>
+      <div class = "fakeTamagotchi" @click="goToGame()"></div>
+      <div class = "title">duogtochi</div>
     </template>
   </div>
 </template>
