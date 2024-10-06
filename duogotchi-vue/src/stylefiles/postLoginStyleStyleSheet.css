@@ -1,0 +1,19 @@
+.postLoginTitleHeader{
+color: #000;
+font-family: "Jersey 15";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.userTamagotchiHeader{
+    color: #000;
+    text-align: center;
+    font-family: "Jersey 15";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+

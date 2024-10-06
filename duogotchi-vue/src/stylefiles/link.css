@@ -1,0 +1,149 @@
+.title{
+    /* duogotchi */
+  
+  position: absolute;
+  width: 176px;
+  height: 48px;
+  left: 19px;
+  top: 33px;
+  
+  font-family: 'Jersey 15';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height */
+  
+  color: #000000;
+  }
+
+.bodytext{
+    /* link with partner! */
+
+position: absolute;
+width: 229px;
+height: 36px;
+left: 84px;
+top: 224px;
+
+font-family: 'Jersey 15';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+.bigplusSign {
+  /* + */
+
+position: absolute;
+width: 124px;
+height: 256px;
+left: 137px;
+top: 291px;
+
+font-family: 'Jersey 15';
+font-style: normal;
+font-weight: 400;
+font-size: 256px;
+line-height: 256px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.partnerIdField {
+  /* partner id field */
+
+position: absolute;
+width: 293px;
+height: 49px;
+left: 52px;
+top: 566px;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 293px;
+height: 49px;
+left: 52px;
+top: 566px;
+
+background: #F3EEDC;
+
+
+/* enter partner’s id... */
+
+position: absolute;
+width: 157px;
+height: 23px;
+left: 120px;
+top: 579px;
+
+font-family: 'Munro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+
+.requestButton {
+  /* button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 15px;
+gap: 10px;
+
+position: absolute;
+width: 111px;
+height: 40px;
+left: 143px;
+top: 647px;
+
+background: #D9D9D9;
+border-radius: 5px;
+
+
+/* button */
+
+width: 81px;
+height: 30px;
+
+font-family: 'Jersey 15';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}

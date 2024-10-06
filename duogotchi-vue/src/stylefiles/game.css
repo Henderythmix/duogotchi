@@ -1,0 +1,293 @@
+template {
+    position: relative;
+    width: 393px;
+    height: 852px;
+
+    background: #C0C7EC;
+}
+
+.nameBox {
+    /* Group 1 */
+
+position: absolute;
+width: 183px;
+height: 26px;
+left: 105px;
+top: 49px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 183px;
+height: 26px;
+left: 105px;
+top: 49px;
+
+background: rgba(217, 217, 217, 0.6);
+border-radius: 4px;
+
+
+/* tamagotchi name */
+
+position: absolute;
+width: 132px;
+height: 20px;
+left: 131px;
+top: 52px;
+
+font-family: 'Jersey 15';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+text-align: center;
+
+color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.homeButton {
+/* Ellipse 2 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 323px;
+top: 33px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* house icon 1 */
+
+position: absolute;
+width: 52;
+height: 52;
+left: 316px;
+top: 27px;
+
+background-image: url('../assets/home.svg');
+
+}
+
+.shopButton{
+/* Ellipse 4 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 18px;
+top: 96px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* shopping cart sprite 1 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 18px;
+top: 98px;
+
+background-image: url('../assets/cart.svg');
+
+}
+
+.infoButton{
+/* Ellipse 3 */
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 18px;
+top: 32px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/*question mark css*/
+
+position: absolute;
+width: 52px;
+height: 52px;
+left: 31px;
+top: 21px;
+
+font-family: 'Jersey 15';
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 96px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #000000;
+}
+
+.containerBox{
+position: absolute;
+width: 393px;
+height: 250px;
+left: 0px;
+top: 602px;
+
+background: #DDAFC3;
+
+}
+
+.foodButton{
+    /* Ellipse 5 */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 66px;
+top: 727px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 66px;
+top: 727px;
+
+background-image: url('../assets/sandwhich.svg');
+
+}
+
+.careButton {
+    /* Ellipse 6 */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 166px;
+top: 758px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 166px;
+top: 758px;
+
+background-image: url('../assets/heart.svg');
+
+
+}
+
+.sleepButton{
+position: absolute;
+width: 62px;
+height: 62px;
+left: 266px;
+top: 727px;
+border-radius: 100px;
+
+background: #F3EEDC;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Align text in the center */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 266px;
+top: 727px;
+
+background-image: url('../assets/zzz.svg');
+
+}
+
+.mainChar {
+position: absolute;
+width: 129px;
+height: 129px;
+left: 69px;
+top: 495px;
+
+background: url('../assets/mainchar.svg');
+
+}
+
+.plant {
+    /* plant sprite 1 */
+
+position: absolute;
+width: 126px;
+height: 189px;
+left: 253px;
+top: 428px;
+
+background: url('../assets/plant.svg');
+
+}
+
+.painting {
+    /* painting sprite 1 */
+
+position: absolute;
+width: 164px;
+height: 164px;
+left: 33px;
+top: 280px;
+
+background: url('../assets/painting.svg');
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.foodBar{
+position: absolute;
+width: 24px;
+height: 112.98px;
+left: 85px;
+top: 631px;
+
+background: #E2C8F0;
+
+}
+
+.careBar {
+    /* Rectangle 20 */
+
+position: absolute;
+width: 24px;
+height: 112.98px;
+left: 185px;
+top: 662px;
+
+background: #E2C8F0;
+
+}
+
+.sleepBar {
+    /* Component 1 */
+
+position: absolute;
+width: 24px;
+height: 112.98px;
+left: 285px;
+top: 631px;
+}
